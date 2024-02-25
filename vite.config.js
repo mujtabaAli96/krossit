@@ -4,6 +4,6 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "https://lawgical.pk/krossit",
+  base: "https://krossit.vercel.app/",
 
 })

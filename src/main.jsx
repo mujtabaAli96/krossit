@@ -6,7 +6,7 @@ import App from './App.jsx'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <BrowserRouter basename="/krossit">
+  <BrowserRouter basename="/">
       <Routes>
 
         <Route  path="/" element={<App />} /> 
