@@ -7,6 +7,10 @@
   flex-direction: column;
   justify-content: space-between;
 
+  @include mobile {
+    overflow-y: scroll !important;
+  }
+
   .textContainer {
     flex: 1;
     align-self: flex-end;
@@ -106,7 +110,8 @@
 
     @include mobile {
       flex-direction: column;
-      width: 100%;
+      width: 90%;
+      align-items: center;
     }
 
     .box {
